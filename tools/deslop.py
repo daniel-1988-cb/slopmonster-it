@@ -29,7 +29,7 @@ VOCAB = [
     'ineguagliabil', 'imprescindibil', 'meticolos', 'arazz', 'trasformativ',
     'rivoluziona', 'rivoluzioner', 'immersiv', 'indimenticabil', 'sapient',
     'magistral', 'vibrant', 'sfaccettat', 'poliedric', 'variegat', 'resilien',
-    'crucial', 'sblocc',
+    'crucial',
     # seconda fascia: una volta in una pagina lunga passa, in ogni paragrafo no
     'innovativ', 'intuitiv', 'affascinant', 'intrinsec',
 ]

@@ -19,7 +19,7 @@ desinenze) o parola per parola quando hanno anche un senso letterale.
 `ineguagliabile` · `imprescindibile` · `meticoloso` · `arazzo` · `trasformativo` ·
 `rivoluzionario` / `rivoluzionerà` · `immersivo` · `indimenticabile` · `sapiente` ·
 `magistrale` · `vibrante` · `sfaccettato` / `sfaccettature` · `poliedrico` ·
-`variegato` · `resilienza` · `cruciale` · `sbloccare` · `innovativo` · `intuitivo` ·
+`variegato` · `resilienza` · `cruciale` · `innovativo` · `intuitivo` ·
 `affascinante` · `intrinseco`
 
 **Controllate dallo script, parola per parola:**

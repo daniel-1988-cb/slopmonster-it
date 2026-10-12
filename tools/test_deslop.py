@@ -32,7 +32,7 @@ for w in VOCAB_EXACT:
 # ── le desinenze scattano anche loro ─────────────────────────────────────────
 for w in ('olistico', 'olistiche', 'sinergia', 'sinergiche', 'rivoluzionario',
           'rivoluzionerà', 'immersiva', 'indimenticabili', 'meticolosamente',
-          'sfaccettature', 'imprescindibile', "all'avanguardia", 'sbloccare'):
+          'sfaccettature', 'imprescindibile', "all'avanguardia"):
     check(f'desinenza «{w}»', 'vocab' in groups(f'Un metodo {w} per tutti.'), 'mancata')
 
 # ── i sensi letterali NON devono scattare ────────────────────────────────────
@@ -43,7 +43,8 @@ for ok in ('Dalla terrazza si vede un panorama sulle colline.',
            'Il nostro alleato storico è la Francia.',
            'Il portico poggia su quattro pilastro e due archi.',
            'Il futurismo fu un movimento di avanguardia.',
-           'La squadra gioca in Eccellenza.'):
+           'La squadra gioca in Eccellenza.',
+           'Dopo due sedute il muscolo si sblocca.'):
     check('senso letterale pulito', 'vocab' not in groups(ok), f'{ok} -> {audit(ok)["vocab"]}')
 
 # ── costrutti ────────────────────────────────────────────────────────────────
