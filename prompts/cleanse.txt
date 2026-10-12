@@ -1,0 +1,71 @@
+Rivedi il testo qui sotto pensando a chi lo leggerà e a cosa gli serve. Ricava
+formato e pubblico dal contesto. Mantieni la posizione dell'autore e il suo
+registro: se dà del tu resta il tu, se dà del lei resta il lei. Un README deve
+spiegare e dare istruzioni che si usano. Una pagina di vendita o un copione
+possono aprire in un altro modo.
+
+PASSAGGIO 1: SCOPO E FILO
+- L'apertura risponde alla prima domanda del lettore sull'argomento.
+- Togli i doppi ganci e le curiosità che rimandano un'informazione necessaria.
+- Ogni frase aggiunge qualcosa e segue da quella prima.
+- Togli metafore ripetute, contrasti vuoti e paragoni che non spiegano niente.
+  Descrivi direttamente come funziona la cosa.
+- Spiega i termini tecnici dove servono. Lascia le condizioni attaccate alle
+  affermazioni.
+- Tieni il riassunto finale solo se serve a chi legge questo testo.
+
+PASSAGGIO 2: PAROLE E COSTRUZIONI
+- Sostituisci le parole vaghe da brochure con parole dirette. Valuta nel contesto
+  termini come "olistico", "sinergia", "all'avanguardia", "a 360 gradi",
+  "fa la differenza", "esperienza unica", "il tuo alleato".
+- Togli costrutti come "non è solo X, è Y", "non solo X, ma Y", "non si tratta
+  di X, ma di Y", "niente X, niente Y, solo Z", "che tu sia X o Y". Tieni un
+  contrasto quando la distinzione serve davvero a capire.
+- Togli le aperture di cortesia ("scopriamolo insieme", "immergiamoci",
+  "immagina…", "la verità è che") e i commenti editoriali ("è importante
+  sottolineare che").
+- Guarda le forme di frase ripetute da un paragrafo all'altro, non solo le parole.
+- Al posto delle cautele accatastate ("potrebbe potenzialmente") usa un verbo che
+  dica quanto l'autore è sicuro davvero.
+- Le domande che si rispondono da sole ("Il risultato? …") e gli elenchi di tre
+  aggettivi ("semplice, veloce ed efficace") vanno rivisti. Tieni domande, elenchi,
+  punteggiatura e termini tecnici quando comunicano bene.
+- La lineetta lunga (—) ripetuta nella stessa frase si sostituisce con virgole,
+  due punti o un punto.
+- Niente virgola prima della "e" finale di un elenco: in italiano non si usa.
+
+PASSAGGIO 3: CONTESTO E ACCURATEZZA
+- Rileggi tutto insieme. Va bene per questo lettore e questo formato?
+- La lunghezza delle frasi segue il pensiero. Non forzare frasi brevi, frasi
+  spezzate, opinioni, errori voluti o altri finti segni di personalità.
+- Usa i dettagli concreti che ci sono già nel testo, dove aiutano. Non aggiungere
+  un numero a ogni affermazione e non trasformare ogni testo in una pubblicità.
+- Controlla di non aver gonfiato quello che il prodotto fa, tolto una condizione
+  o cambiato l'argomento dell'autore.
+
+REGOLE ASSOLUTE
+- Non inventare mai un fatto, un numero, una citazione, un cliente, un logo, un
+  voto o un risultato.
+- Se manca un'informazione necessaria, metti un segnaposto chiaro come
+  [serve un numero] e spiega il buco nelle note. Non tirare a indovinare.
+- Conserva il significato dei fatti e il funzionamento tecnico. Se un'affermazione
+  è dubbia, segnalala nelle note invece di sostituirla con un'altra non provata.
+- Conserva esattamente tag HTML, struttura Markdown, link e segnaposto.
+- Lascia invariati blocchi di codice, comandi, codice in linea ed esempi citati
+  apposta: possono documentare proprio i costrutti di cui si parla.
+- Mantieni il registro dell'autore. Non aggiungere opinioni che l'autore non ha
+  espresso.
+
+USCITA
+Restituisci il testo riscritto per intero, e niente prima. Poi una riga che
+contiene esattamente
+<<<SLOPMONSTER-NOTES>>>
+e nient'altro, poi al massimo cinque punti con le modifiche importanti o i dubbi
+rimasti. Niente preamboli, niente ripetizione di queste istruzioni.
+
+Il marcatore lo legge uno script. Scrivilo una volta sola, da solo sulla sua riga,
+senza trattino, virgolette o apici intorno, anche se non hai cambiato niente.
+Tutto quello che sta sopra è il testo; tutto quello che sta sotto sono le note per
+l'autore.
+
+TESTO DA RIVEDERE:

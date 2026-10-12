@@ -1,0 +1,30 @@
+name: controllo slop
+
+on: [push, pull_request]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      # Il catalogo è fatto di regex: i test di regressione sono l'unica cosa tra
+      # una modifica e un controllo diventato mezzo cieco.
+      - name: Test di regressione
+        run: python3 tools/test_deslop.py
+
+      # La divisione testo/note tiene le note del modello fuori dal file pulito.
+      # Nessuna chiamata a modelli, quindi gira qui come un test qualsiasi.
+      - name: Test della revisione
+        run: bash tools/test_cleanse.sh
+
+      - name: Controllo del README
+        run: python3 tools/deslop.py README.md
+
+      # Questo è il controllo vero, da copiare nel tuo repo: puntalo al file con il
+      # testo da pubblicare. Sotto 5/5 il build fallisce.
+      - name: Controllo del testo pubblicato
+        run: python3 tools/deslop.py --text "$(cat examples/campione.txt)"
